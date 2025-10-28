@@ -46,7 +46,7 @@ def programa_principal():
     nombre_titular = input("Para comenzar, ingrese el nombre del titular de la cuenta: ")
     mi_cuenta = Cuenta(nombre_titular) 
 
-    while True:
+    while True: 
         print("\n--- MENÚ DE OPERACIONES ---")
         print("1. Mostrar datos de la cuenta")
         print("2. Ingresar dinero")
@@ -69,7 +69,7 @@ def programa_principal():
         elif opcion == '4':
             print("\n¡Gracias por usar el banco! ¡Adiós! ")
             break
-
+# 
         else:
             print(" ¡Opción no válida! Por favor, escribe solo un número del 1 al 4.")
             
